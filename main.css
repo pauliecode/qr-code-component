@@ -18,18 +18,16 @@
     font-size: 15px;
 }
 
+body {
+    display: flex;
+    background-color: #D5E1EF;
+    flex-direction: column;
+}
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-body {
-    background-color: #D5E1EF;
+    position: absolute;
+    bottom: 30px;
+    left: 43.5vw;
 }
 
 .container {
